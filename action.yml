@@ -1,0 +1,6 @@
+name: C++ Problem Matcher
+description: Problem matchers for various C++ compilers and static analysis tools
+author: Tim Angus
+runs:
+  using: 'node12'
+  main: 'index.js'
