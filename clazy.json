@@ -1,0 +1,20 @@
+{
+    "problemMatcher":
+    [
+        {
+            "owner": "cpp-problem-matcher-clazy",
+            "pattern":
+            [
+                {
+                    "regexp": "^\\s*([^\\n:]*):(\\d+):((\\d+):)?\\s*(warning|error):\\s*(.*?(\\n.*?)?)(\\s+\\[-Wclazy-([^\\]]+)\\])$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 4,
+                    "severity": 5,
+                    "message": 6,
+                    "code": 9
+                }
+            ]
+        }
+    ]
+}

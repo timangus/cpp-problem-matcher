@@ -2,7 +2,7 @@
     "problemMatcher":
     [
         {
-            "owner": "cpp-problem-matcher-compiler",
+            "owner": "cpp-problem-matcher-generic",
             "pattern":
             [
                 {
