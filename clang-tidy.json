@@ -11,7 +11,8 @@
                     "line": 2,
                     "column": 4,
                     "severity": 5,
-                    "message": 6
+                    "message": 6,
+                    "code": 9
                 }
             ]
         }
