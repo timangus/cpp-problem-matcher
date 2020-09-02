@@ -1,0 +1,21 @@
+{
+    "problemMatcher":
+    [
+        {
+            "owner": "cpp-problem-matcher-msvc",
+            "severity": "warning",
+            "pattern":
+            [
+                {
+                    "regexp": "^([^\\s\\(]*)\\((\\d+),?(\\d+)?(?:,\\d+,\\d+)?\\)\\s*:\\s+((error|warning)|[^\\s]+)\\s+(\\w{1,2}\\d+)\\s*:\\s*([^\\[]+)(?:\\s+\\[.*\\])?$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 5,
+                    "message": 7,
+                    "code": 6
+                }
+            ]
+        }
+    ]
+}
