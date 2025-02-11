@@ -7,7 +7,7 @@
             "pattern":
             [
                 {
-                    "regexp": "^((\\s*\\-\\>\\s*)?\\[([^:]+):(\\d+)\\])+:\\s*\\(((warning|error)|([^\\)]+))\\)\\s*(.*)$",
+                    "regexp": "^\\s*<error(\\s+(id=\"(?<code>[^\"]+)\"|severity=\"(?<severity>[^\"]+)\"|verbose=\"(?<message>[^\"]+)\"|[^=]+=\"[^\"]+\"))+>\\s*<location(\\s+(file=\"(?<file>[^\"]+)\"| line=\"(?<line>[^\"]+)\"|column=\"(?<column>[^\"]+)\"|[^=]+=\"[^\"]+\"))+\\/>\\s*<\\/error>$",
                     "file": 3,
                     "line": 4,
                     "severity": 6,
